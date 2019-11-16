@@ -34,26 +34,26 @@ android {
     buildTypes {
         getByName("debug") {
             isDebuggable = true
-            buildConfigField("String", "SERVER_URL", "")
+            buildConfigField("String", "SERVER_URL", "\"\"")
             applicationIdSuffix = ".debug"
             versionNameSuffix = "-debug"
         }
         create("dev") {
             isMinifyEnabled = false
-            buildConfigField("String", "SERVER_URL", "")
+            buildConfigField("String", "SERVER_URL", "\"\"")
             applicationIdSuffix = ".dev"
             versionNameSuffix = "-dev"
         }
         create("staging") {
             isMinifyEnabled = false
-            buildConfigField("String", "SERVER_URL", "")
+            buildConfigField("String", "SERVER_URL", "\"\"")
             applicationIdSuffix = ".staging"
             versionNameSuffix = "-staging"
         }
         getByName("release") {
             isMinifyEnabled = true
             proguardFiles(getDefaultProguardFile("proguard-android.txt"), "proguard-rules.pro")
-            buildConfigField("String", "SERVER_URL", "")
+            buildConfigField("String", "SERVER_URL", "\"\"")
             applicationIdSuffix = ".release"
             versionNameSuffix = "-release"
         }
@@ -66,7 +66,7 @@ android {
                 override fun execute(t: BaseVariantOutput) {
                     val output = t as BaseVariantOutputImpl
                     output.outputFileName =
-                        "Shell-${variant.buildType.name}-v${defaultConfig.versionName}.apk"
+                        "CommonFish-${variant.buildType.name}-v${defaultConfig.versionName}.apk"
                 }
             })
         }
