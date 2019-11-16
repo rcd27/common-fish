@@ -20,7 +20,7 @@ kapt {
 android {
     compileSdkVersion(29)
     defaultConfig {
-        applicationId = "com.github.rcd27"
+        applicationId = "com.github.rcd27.commonfish"
         minSdkVersion(21)
         targetSdkVersion(29)
         versionCode = 1

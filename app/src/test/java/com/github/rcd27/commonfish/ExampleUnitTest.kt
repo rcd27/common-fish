@@ -1,4 +1,4 @@
-package com.github.commonfish
+package com.github.rcd27.commonfish
 
 import org.junit.Test
 
