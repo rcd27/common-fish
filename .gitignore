@@ -1,0 +1,5 @@
+/common-fish.iml
+/local.properties
+.gradle/
+.idea/
+app/app.iml
