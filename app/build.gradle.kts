@@ -13,14 +13,14 @@ plugins {
 kapt {
     generateStubs = true
     arguments {
-        arg("toothpick_registry_package_name", "com.github.rcd27")
+        arg("toothpick_registry_package_name", "com.rcd27.commonfish")
     }
 }
 
 android {
     compileSdkVersion(29)
     defaultConfig {
-        applicationId = "com.github.rcd27.commonfish"
+        applicationId = "com.rcd27.commonfish"
         minSdkVersion(21)
         targetSdkVersion(29)
         versionCode = 1

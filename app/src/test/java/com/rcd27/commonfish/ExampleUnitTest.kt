@@ -1,8 +1,7 @@
-package com.github.rcd27.commonfish
+package com.rcd27.commonfish
 
+import org.junit.Assert.assertEquals
 import org.junit.Test
-
-import org.junit.Assert.*
 
 /**
  * Example local unit test, which will execute on the development machine (host).

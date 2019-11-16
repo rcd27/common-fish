@@ -1,4 +1,4 @@
-package com.github.rcd27.commonfish
+package com.rcd27.commonfish
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4

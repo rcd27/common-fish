@@ -1,4 +1,4 @@
-package com.github.rcd27.commonfish
+package com.rcd27.commonfish
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
